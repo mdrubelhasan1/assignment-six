@@ -105,7 +105,9 @@ description.innerHTML = `
 `
 const summary = document.getElementById('summary');
 summary.innerHTML =`
-<img src="${tool.logo}" alt="">
+<img class="img-fluid mt-4" src="${tool.logo}" alt="">
+<p class="fs-6 fw-semibold text-start">${tool.input_output_examples[0].input}</p>  
+<p class="fs-6 text-start">${tool.input_output_examples[0].output}</p>  
 `
 
 
