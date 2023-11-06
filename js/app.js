@@ -94,7 +94,7 @@ description.innerHTML = `
 </div>
 
 <div class="ms-4">
-<p class="fs-6 fw-semibold text-start">Integration</p>
+<p class="fs-6 fw-semibold text-start">Integrations</p>
 <li class="fs-6 fw-semibold text-start">${tool.integrations[0]}</li>
 <li class="fs-6 fw-semibold text-start">${tool.integrations[1]}</li>
 <li class="fs-6 fw-semibold text-start">${tool.integrations[2]}</li>
@@ -106,8 +106,8 @@ description.innerHTML = `
 const summary = document.getElementById('summary');
 summary.innerHTML =`
 <img class="img-fluid mt-4" src="${tool.logo}" alt="">
-<p class="fs-6 fw-semibold text-start">${tool.input_output_examples[0].input}</p>  
-<p class="fs-6 text-start">${tool.input_output_examples[0].output}</p>  
+<p class="fs-6 fw-semibold text-center">${tool.input_output_examples[0].input}</p>  
+<p class="fs-6 text-center">${tool.input_output_examples[0].output}</p>  
 `
 
 
